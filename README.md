@@ -32,7 +32,7 @@ ElementEnabler is a Java-based automation framework built with Cucumber, Seleniu
   2. Replaces strict text matching with contains logic
   3. Applies similar logic for CSS selectors
   4. Falls back to secondary locators
-* If a fallback succeeds, the `primary` locator is updated dynamically.
+* If a fallback succeeds, the `primary` locator is updated dynamically, and the primary locator of the PO JSON file is updated(Self-healed). 
 
 ### Demo
 

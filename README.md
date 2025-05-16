@@ -81,7 +81,7 @@ WebElement Size: 1
 
 ### Purpose
 
-Automatically commit and version locator changes after test execution.
+Automatically commit and version locator changes after test execution
 
 ### Workflow (CI/CD-ready)
 
@@ -104,7 +104,8 @@ gh pr create --base master --head <branch> \
   --body "Updated locator(s) after fallback recovery"
 ```
 
-> You can include a toggle to disable auto-PR creation if needed.
+> Can be integrated to Jenkin PIpeline as a Step in the JenkinsFile to trigger after "test" execution.
+> Also, can include a toggle to disable auto-PR creation if needed, just in case these element failovers are a defect that needs to be addressed. 
 
 ---
 

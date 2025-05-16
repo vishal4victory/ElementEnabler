@@ -110,6 +110,7 @@ gh pr create --base master --head <branch> \
 
 ## 3️⃣ Automated Test Data Generation
 
+* [GenerateUserPayload](https://github.com/vishal4victory/ElementEnabler/blob/main/src/main/java/org/example/utils/GenerateUserPayload.java#L12)
 Uses Java Faker to create realistic, dynamic test data in JSON format.
 
 ### Features
@@ -135,6 +136,7 @@ Uses Java Faker to create realistic, dynamic test data in JSON format.
 ## 4️⃣ Automated Component Discovery
 
 This utility scans a webpage, identifies UI elements, and saves them in organized JSON files.
+* [POGenerator](https://github.com/vishal4victory/ElementEnabler/blob/main/src/main/java/org/example/utils/POGenerator.java)
 
 ### Benefits
 

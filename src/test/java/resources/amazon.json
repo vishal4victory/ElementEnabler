@@ -1,0 +1,32 @@
+{
+  "url": {
+    "primary": "https://www.amazon.in",
+    "fallbacks": [
+      "https://www.amazon.com"
+    ]
+  },
+  "button_add_to_cart": {
+    "primary": "button[aria-label='Add to cart']",
+    "fallbacks": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "span_cart_count": {
+    "primary": "#nav-cart-count",
+    "fallbacks": [
+      "",
+      "",
+      ""
+    ]
+  },
+  "input_search": {
+    "fallbacks": [
+      "//span[text()='TEXT_VALUE']",
+      "//button[@class='btn-login']",
+      "//form[@id='nav-search-bar-form']/input"
+    ],
+    "primary": "//form[@id='nav-search-bar-form']//input"
+  }
+}

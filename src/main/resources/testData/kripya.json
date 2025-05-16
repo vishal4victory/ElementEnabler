@@ -1,0 +1,18 @@
+{
+    "link_type_application/json+oembed": "link[type='application/json+oembed']",
+    "input_type_submit": "input[type='submit']",
+    "link_type_text/css": "link[type='text/css']",
+    "input_type_hidden": "input[type='hidden']",
+    "script_type_text/javascript": "script[type='text/javascript']",
+    "link_type_application/rsd+xml": "link[type='application/rsd+xml']",
+    "link_type_application/wlwmanifest+xml": "link[type='application/wlwmanifest+xml']",
+    "link_type_text/xml+oembed": "link[type='text/xml+oembed']",
+    "style_type_text/css": "style[type='text/css']",
+    "input_type_search": "input[type='search']",
+    "link_type_application/rss+xml": "link[type='application/rss+xml']",
+    "input_type_email": "input[type='email']",
+    "script_type_application/ld+json": "script[type='application/ld+json']",
+    "textarea_type_textarea": "textarea[type='textarea']",
+    "button_type_submit": "button[type='submit']",
+    "link_type_application/json": "link[type='application/json']"
+}
